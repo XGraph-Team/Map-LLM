@@ -121,8 +121,8 @@ Natural language commands directly control map visualization and grid operations
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/XGraph-Team/SumoXPypsa.git
-   cd SumoXPypsa
+   git clone https://github.com/XGraph-Team/Map-LLM.git
+   cd Map-LLM
    ```
 
 2. **Set up SUMO**
@@ -319,7 +319,7 @@ Machine Learning:
 ### File Structure
 
 ```
-SumoXPypsa/
+Map-LLM/
 ├── 📁 core/                          # Core system modules
 │   ├── sumo_manager.py              # SUMO integration & vehicle management
 │   └── power_system.py              # PyPSA power grid simulation
@@ -569,7 +569,7 @@ We welcome contributions from the community! See [CONTRIBUTING.md](CONTRIBUTING.
 ### Contact
 - 📧 Email: mb4194@msstate.edu
 - 🌐 Website: https://xgraph.team/
-- 💬 GitHub Issues: [Report bugs or request features](https://github.com/XGraph-Team/SumoXPypsa/issues)
+- 💬 GitHub Issues: [Report bugs or request features](https://github.com/XGraph-Team/Map-LLM/issues)
 
 ---
 
@@ -627,7 +627,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 🌟 **If you find this project useful, please give it a star!** ⭐
 
-**[⭐ Star](https://github.com/XGraph-Team/SumoXPypsa) • [🍴 Fork](https://github.com/XGraph-Team/SumoXPypsa/fork) • [📝 Issues](https://github.com/XGraph-Team/SumoXPypsa/issues) • [💬 Discussions](https://github.com/XGraph-Team/SumoXPypsa/discussions)**
+**[⭐ Star](https://github.com/XGraph-Team/Map-LLM) • [🍴 Fork](https://github.com/XGraph-Team/Map-LLM/fork) • [📝 Issues](https://github.com/XGraph-Team/Map-LLM/issues) • [💬 Discussions](https://github.com/XGraph-Team/Map-LLM/discussions)**
 
 ---
 
