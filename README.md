@@ -97,9 +97,9 @@ Natural language commands directly control map visualization and grid operations
 
 | Command Example | Action on Map | Visual Result |
 |----------------|---------------|---------------|
-| ![Scenario 1](scenario1.png) | **"Fail Times Square"** | Substation turns red, traffic lights yellow |
-| ![Scenario 2](scenario2.png) | **"Blackout scenario"** | Multiple substations fail, citywide impact |
-| ![Scenario 3](scenario3.png) | **"Run V2G scenario"** | Cinematic camera + V2G emergency response |
+| ![Scenario 1](scenario 1.png) | **"Fail Times Square"** | Substation turns red, traffic lights yellow |
+| ![Scenario 2](scenario 2.png) | **"Blackout scenario"** | Multiple substations fail, citywide impact |
+| ![Scenario 3](scenario 3.png) | **"Run V2G scenario"** | Cinematic camera + V2G emergency response |
 
 *The AI chatbot understands natural language and translates commands into real-time map actions and grid operations.*
 
