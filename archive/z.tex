@@ -1,0 +1,293 @@
+%%
+%% This is file `sample-acmcp.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `all,journal,acmcp')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-acmcp.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%% The first command in your LaTeX source must be the \documentclass
+%% command.
+%%
+%% For submission and review of your manuscript please change the
+%% command to \documentclass[manuscript, screen, review]{acmart}.
+%%
+%% When submitting camera ready or to TAPS, please change the command
+%% to \documentclass[sigconf]{acmart} or whichever template is required
+%% for your publication.
+%%
+%%
+\documentclass[sigconf,anonymous,review]{acmart}
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\setcopyright{none}
+\copyrightyear{2026}
+\acmYear{2026}
+\acmDOI{XXXXXXX.XXXXXXX}
+\acmConference[WSDM '26]{Proceedings of the 19th ACM International Conference on Web Search and Data Mining (WSDM)}{February 22--26, 2026}{Boise, ID}
+
+% %%
+% %% These commands are for a JOURNAL article.
+% \acmJournal{JDS}
+% \acmVolume{37}
+% \acmNumber{4}
+% \acmArticle{111}
+% \acmMonth{8}
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+
+
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title{Interactive Exploration of Power–Traffic Interdependencies with LLM-Guided Simulation}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+\author{Ben Trovato}
+\email{trovato@corporation.com}
+\orcid{1234-5678-9012}
+\author{G.K.M. Tobin}
+\email{webmaster@marysville-ohio.com}
+\affiliation{%
+  \institution{Institute for Clarity in Documentation}
+  \city{Dublin}
+  \state{Ohio}
+  \country{USA}
+}
+
+\author{Lars Th{\o}rv{\"a}ld}
+\affiliation{%
+  \institution{The Th{\o}rv{\"a}ld Group}
+  \city{Hekla}
+  \country{Iceland}}
+\email{larst@affiliation.org}
+
+\author{Valerie B\'eranger}
+\affiliation{%
+  \institution{Inria Paris-Rocquencourt}
+  \city{Rocquencourt}
+  \country{France}
+}
+
+\author{Aparna Patel}
+\affiliation{%
+ \institution{Rajiv Gandhi University}
+ \city{Doimukh}
+ \state{Arunachal Pradesh}
+ \country{India}}
+
+\author{Huifen Chan}
+\affiliation{%
+  \institution{Tsinghua University}
+  \city{Haidian Qu}
+  \state{Beijing Shi}
+  \country{China}}
+
+\author{Charles Palmer}
+\affiliation{%
+  \institution{Palmer Research Laboratories}
+  \city{San Antonio}
+  \state{Texas}
+  \country{USA}}
+\email{cpalmer@prl.com}
+
+\author{John Smith}
+\affiliation{%
+  \institution{The Th{\o}rv{\"a}ld Group}
+  \city{Hekla}
+  \country{Iceland}}
+\email{jsmith@affiliation.org}
+
+\author{Julius P. Kumquat}
+\affiliation{%
+  \institution{The Kumquat Consortium}
+  \city{New York}
+  \country{USA}}
+\email{jpkumquat@consortium.net}
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+\renewcommand{\shortauthors}{Trovato et al.}
+%%
+%% Article type: Research, Review, Discussion, Invited or position
+\acmArticleType{Review}
+%%
+%% Links to code and data
+\acmCodeLink{https://github.com/borisveytsman/acmart}
+\acmDataLink{htps://zenodo.org/link}
+%%
+%% Authors' contribution
+\acmContributions{BT and GKMT designed the study; LT, VB, and AP
+  conducted the experiments, BR, HC, CP and JS analyzed the results,
+  JPK developed analytical predictions, all authors participated in
+  writing the manuscript.}
+%%
+%% Sometimes the addresses are too long to fit on the page.  In this
+%% case uncomment the lines below and fill them accodingly.
+%%
+%% \authorsaddresses{Corresponding author: Ben Trovato,
+%% \href{mailto:trovato@corporation.com}{trovato@corporation.com};
+%% Institute for Clarity in Documentation, P.O. Box 1212, Dublin,
+%% Ohio, USA, 43017-6221}
+%%
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+\keywords{Traffic-Electricity Co-Simulation, LLM}
+
+\begin{abstract}
+    We present an interactive demo system that enables users to explore interdependencies between power grids and transportation networks in urban environments. The system integrates SUMO for microscopic traffic simulation, PyPSA for power system analysis, and a Unity-based visualization layer, synchronized through an event-driven coordination engine. Unlike prior co-simulation frameworks, our demo introduces a large language model (LLM) interface that allows participants to browse the map, initiate hazards, and issue countermeasures through natural language commands. This AI-driven interaction lowers the barrier for exploring cross-infrastructure resilience while maintaining analytical depth for research use. The demo showcases three illustrative scenarios: (1) power outages causing traffic disruptions, (2) EV charging surges stressing substations, and (3) vehicle-to-grid operations mitigating failures. By coupling domain simulators with an intelligent conversational layer, the system provides a new paradigm for human–AI collaboration in urban resilience research and decision-making.
+\end{abstract}
+
+\begin{CCSXML}
+<ccs2012>
+   <concept>
+       <concept_id>10010147.10010341.10010349.10010360</concept_id>
+       <concept_desc>Computing methodologies~Interactive simulation</concept_desc>
+       <concept_significance>500</concept_significance>
+       </concept>
+   <concept>
+       <concept_id>10010147.10010341.10010349.10010359</concept_id>
+       <concept_desc>Computing methodologies~Real-time simulation</concept_desc>
+       <concept_significance>500</concept_significance>
+       </concept>
+ </ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Computing methodologies~Interactive simulation}
+\ccsdesc[500]{Computing methodologies~Real-time simulation}
+
+\maketitle
+
+\section{Introduction}
+
+Urban infrastructures are increasingly interdependent. Transportation networks depend on electricity for traffic signals and electric vehicle (EV) charging, while power grids rely on road access for maintenance crews and on mobility patterns that shape demand~\cite{rinaldi2001identifying,ouyang2014review,buldyrev2010catastrophic,gao2012robustness,zio2011modeling}. Failures in one domain can rapidly cascade to another: a substation outage may disable intersections across a district, or traffic congestion may delay power restoration efforts. Understanding these interactions is essential for building resilient cities~\cite{rinaldi2001identifying, ouyang2014review, buldyrev2010catastrophic}, yet existing tools remain siloed in single domains.
+
+Although the general importance of interdependent infrastructures is well established, practical tools for exploring them remain limited. Many simulation platforms are siloed within a single domain: traffic simulators such as SUMO~\cite{lopez2018sumo} and grid simulators such as PyPSA~\cite{brown2018pypsa} provide rich capabilities within their fields but lack mechanisms to model how disruptions propagate across domains. Prior efforts at coupling these systems show the potential of co-simulation: GEMINI, for example, integrates distribution systems and agent-based transportation models for large-scale EV charging analysis~\cite{panossian2023architecture}, while V2Sim links microscopic traffic flows with distribution networks to capture detailed EV charging and vehicle-to-grid (V2G) behaviors~\cite{qian2024v2sim}. Yet these frameworks often require significant technical expertise, and interactions are typically confined to fixed parameters or scripted scenarios.
+
+A growing body of research highlights the need for interactive and accessible approaches. Co-impact studies reveal how transportation electrification can reshape grid operations and highlight the importance of user behavior in resilience outcomes~\cite{xu2020coimpact}. However, without intuitive tools, these analyses remain the province of specialists. At the same time, recent advances in large language models (LLMs) suggest new opportunities for bridging technical simulations with natural, conversational interfaces. LLM agents have been explored for urban planning and smart city decision-making~\cite{kalyuzhnaya2025llm, han2025large}, and surveys of multi-agent systems emphasize their ability to coordinate across heterogeneous tools~\cite{guo2024large}. In user interface research, LLM-powered interaction has been shown to lower barriers for real-time system exploration and experimentation~\cite{pozdniakov2024large}.
+
+This demo contributes to this emerging direction by combining a modular co-simulation engine with an LLM-driven interface for urban infrastructure exploration. Our system integrates SUMO for microscopic traffic modeling, PyPSA for power system analysis, and Unity for immersive visualization~\cite{unity2023}, synchronized through an event-driven coordination engine. Unlike traditional simulators, users interact with the system through natural language: browsing city maps, initiating hazards such as outages or congestion, and applying countermeasures like rerouting traffic or deploying V2G support. This conversational layer makes it possible for both experts and non-experts to ask “what-if” questions and immediately observe cascading outcomes.
+
+The demo highlights three illustrative scenarios:
+(1) \textbf{Grid-induced traffic disruption}, where substation failures propagate into mobility bottlenecks; (2) \textbf{EV charging stress}, where surges in demand threaten grid stability; and (3) \textbf{V2G stabilization}, where EVs discharge energy to restore grid balance.
+
+Together, these scenarios illustrate how AI-assisted co-simulation can reveal cross-domain feedback loops and resilience strategies in real time. Beyond transportation and power, the modular design supports extension to communication, supply chains, or other infrastructures, positioning the framework as a generalizable platform for future research.
+
+By coupling infrastructure simulation with AI-driven interaction, our demo offers a new paradigm for exploring, reasoning about, and acting upon interconnected urban systems. It enables natural, human-centered experimentation with cascading failures and resilience measures, advancing intelligent systems that bridge data, interaction, and decision-making.
+
+
+\section{System Description}
+
+Our framework integrates three key components: SUMO for microscopic traffic modeling~\cite{lopez2018sumo}, PyPSA for power grid simulation~\cite{brown2018pypsa}, and Unity for interactive visualization~\cite{unity2023}. An event-driven engine coordinates the domains by synchronizing time, propagating failures, and aggregating dynamic loads in real time. Users can configure scenarios, observe cascading effects such as grid-induced traffic disruptions or EV charging stress, and test resilience strategies. The modular design also allows new infrastructures to be added as plugins. Figure~\ref{fig:structure} shows the overall architecture with PyPSA and SUMO coupled through the coordination engine.
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=1\linewidth]{co-sim.pdf}
+    \caption{Co-simulation structure}
+    \label{fig:structure}
+\end{figure}
+Prior co-simulation platforms mainly target single-domain or transmission/distribution grid studies~\cite{mihal2022smart}, or focus on EV-grid interactions in isolation~\cite{balogun2023ev,wallison2025electric}. Our system differs by coupling microscopic traffic simulation with detailed grid modeling, emphasizing cross-domain cascading behaviors.
+
+\subsection{Core Components}
+
+\textbf{Transportation.} SUMO tracks individual vehicles, including electric vehicles with battery dynamics, charging demand, and adaptive rerouting under congestion or outages. It supports realistic traffic signal logic, multimodal traffic, and integration via TraCI, enabling fine-grained interaction with the power system.
+
+\noindent\textbf{Power Grid.} PyPSA performs power flow calculations, monitors line loading and voltage stability, and incorporates dynamic EV charging loads from the transportation layer. Its modular design supports both operational studies and planning tasks, making it suitable for real-time co-simulation.
+
+\noindent\textbf{Integration Engine.} A custom Python-based coordination layer maintains synchronization between SUMO and PyPSA, propagates failures and load changes across domains, and ensures consistency at each simulation step. The engine also implements demand response and blackout scheduling, so that grid interventions immediately reflect in traffic states and charging availability.
+
+\noindent\textbf{Visualization.} Unity provides an interactive interface where users can observe traffic flows, grid status, and cascading effects as they evolve. This visual layer supports immersive scenario exploration, allowing users to trace cause–effect relationships across infrastructures in real time. A screenshot of the UI is shown in Figure~\ref{fig:interface}.
+
+\section{Demonstration Scenarios}
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=1\linewidth]{Screenshot.png}
+    \caption{System Overview Interface}
+    \label{fig:interface}
+\end{figure}
+% In the demo, we showcase three scenarios that illustrate how the framework captures cross-domain dynamics and resilience mechanisms:
+
+
+\textbf{Scenario 1: EV Charging Stress on Grid}
+Widespread EV charging generates concentrated demand at urban substations, increasing grid stress. The system models load growth, triggers demand response actions when thresholds are exceeded, and shows how charging congestion alters vehicle flows and wait times. Prior studies confirm that EV charging can push distribution feeders beyond their safe limits~\cite{tayri2025grid,li2024impact}, motivating scenario exploration of urban-scale charging stress.
+
+\textbf{Scenario 2: Substation Failure and Cascading Impacts}
+A simulated substation outage cascades to downstream components, disabling traffic signals and charging stations. SUMO reflects the resulting congestion and rerouting, while PyPSA computes secondary overloads that may propagate failures across the grid. Similar co-simulation efforts in European districts~\cite{wangsimulation} and real-time testbeds~\cite{alasali2025innovative} highlight the importance of resilience evaluation under cascading conditions, which our demo generalizes to dense U.S. urban contexts.
+
+\textbf{Scenario 3: Vehicle-to-Grid Restoration}
+EVs act as distributed energy resources during grid stress events. The system coordinates V2G discharging sessions, restores failed substations once energy thresholds are met, and visualizes recovery through traffic lights regaining power and congestion easing. This complements existing V2G-aware co-simulation platforms~\cite{balogun2023ev,qian2024v2sim,xu2020coimpact}, but uniquely integrates V2G into a multi-domain cascading failure environment. V2G also serves as a mitigation strategy for Scenario~1: aggregated discharge from nearby vehicles can relieve grid bottlenecks and stabilize operations. Utilities have already piloted such approaches. For example, BlueHub Energy and Fermata Energy used bi-directional charging to send power back to the grid~\cite{fermata2023boston_v2g_pilot}, and the U.S. Department of Energy has outlined a national roadmap for V2G integration~\cite{doe2025_vgi_assessment}.
+
+
+\section{Conclusion}
+We present a demonstration of the intricate interactions between heterogeneous dynamics in transportation and power networks. This research contributes to the study of social infrastructure and, more significantly, the broader domain of network interactions. Future work will encompass additional networks, including social networks, supply chains, financial networks, etc. We anticipate observing more complex and nonlinear phenomena, thereby establishing a comprehensive research framework for this emerging field.
+
+
+
+
+
+
+
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{z}
+
+\end{document}
+\endinput
+%%
+%% End of file `sample-acmcp.tex'.
