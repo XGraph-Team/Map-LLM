@@ -1,0 +1,129 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+server*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Generated/Cache Files
+*.pyc
+*.pyo
+*.pyd
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# SUMO Generated Files
+data/*.xml
+data/tripinfo.xml
+data/cache/
+!data/manhattan.net.xml
+!data/manhattan.osm
+!data/manhattan.sumocfg
+!data/vehicle_types.add.xml
+!data/gui_settings.xml
+
+# ML Model Files (if large)
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Results and Performance Data
+*_results.json
+performance_*.json
+ml_demo_results.json
+
+# Backup and Archive
+archive/
+*.bak
+*_BACKUP_*
+*_ORIGINAL.*
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.pdf
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Monitoring
+monitoring/*.log
+monitoring/*.json
+!monitoring/README.md
+
+# Temporary files
+tmp/
+temp/
+*.tmp
