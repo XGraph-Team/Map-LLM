@@ -417,12 +417,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Flask** - Web framework
 - **OpenAI** - AI integration capabilities
 
-## 📞 Support
-
-- 📧 **Email**: support@manhattan-power-grid.com
-- 💬 **Discord**: [Join our community](https://discord.gg/manhattan-power-grid)
-- 📖 **Documentation**: [Read the docs](https://docs.manhattan-power-grid.com)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/manhattan-power-grid/issues)
 
 ## 🗺️ Roadmap
 
@@ -459,6 +453,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Built with ❤️ for sustainable energy and smart city infrastructure**
 
-[⭐ Star this repo](https://github.com/yourusername/manhattan-power-grid) • [🍴 Fork it](https://github.com/yourusername/manhattan-power-grid/fork) • [📝 Report Issues](https://github.com/yourusername/manhattan-power-grid/issues)
+[⭐ Star this repo](https://github.com/XGraph-Team/Map-LLM) • [🍴 Fork it](https://github.com/XGraph-Team/Map-LLM/fork) • [📝 Report Issues](https://github.com/XGraph-Team/Map-LLM/issues)
 
 </div>
